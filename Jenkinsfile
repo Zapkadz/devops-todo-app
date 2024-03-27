@@ -2,7 +2,7 @@ pipeline {
   agent any 
   stages {
     stage("List") {
-        sh "ls -la"
+        sh 'ls -la'
     }
   }
 }
